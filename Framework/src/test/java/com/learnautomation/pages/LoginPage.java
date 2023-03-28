@@ -7,11 +7,10 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
-	//Create constructor
+	//Testing new commit by Amruta
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver = ldriver;
-		
 	}
 	
 	//defining the elements
