@@ -22,7 +22,7 @@ public class ExcelDataProvider {
 			
 		} catch (Exception e) {
 			
-			System.out.println("Unable to load the file"+ e.getMessage());
+			System.out.println("Unable to read excel file"+ e.getMessage());
 			
 		}
 	}

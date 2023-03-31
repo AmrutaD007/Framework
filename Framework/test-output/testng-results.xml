@@ -14,21 +14,18 @@
       <![CDATA[Browser and application up and running]]>
     </line>
     <line>
-      <![CDATA[Test is about to end.]]>
-    </line>
-    <line>
       <![CDATA[Screenshot captured]]>
     </line>
     <line>
       <![CDATA[Test completed >> Reports Generated]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-27T16:10:07 IST" name="Default suite" finished-at="2023-03-27T16:10:29 IST" duration-ms="21838">
+  <suite started-at="2023-03-30T13:25:16 IST" name="Suite" finished-at="2023-03-30T13:25:40 IST" duration-ms="24353">
     <groups>
     </groups>
-    <test started-at="2023-03-27T16:10:07 IST" name="Default test" finished-at="2023-03-27T16:10:29 IST" duration-ms="21838">
+    <test started-at="2023-03-30T13:25:16 IST" name="Test" finished-at="2023-03-30T13:25:40 IST" duration-ms="24353">
       <class name="com.learnautomation.testcases.LoginToCrmWithXL">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329]" started-at="2023-03-27T16:10:06 IST" name="setUpSuite" finished-at="2023-03-27T16:10:07 IST" duration-ms="1643" status="PASS">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96]" started-at="2023-03-30T13:25:15 IST" name="setUpSuite" finished-at="2023-03-30T13:25:16 IST" duration-ms="1432" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and test is getting ready]]>
@@ -38,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329]" started-at="2023-03-27T16:10:07 IST" name="setup" finished-at="2023-03-27T16:10:19 IST" duration-ms="12107" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96]" started-at="2023-03-30T13:25:16 IST" name="setup" finished-at="2023-03-30T13:25:29 IST" duration-ms="12836" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Trying to start the browser and getting the application ready]]>
@@ -48,22 +45,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login_app()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329]" started-at="2023-03-27T16:10:19 IST" name="login_app" finished-at="2023-03-27T16:10:28 IST" duration-ms="8581" status="PASS">
+        <test-method signature="login_app()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96]" started-at="2023-03-30T13:25:29 IST" name="login_app" finished-at="2023-03-30T13:25:39 IST" duration-ms="10201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_app -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329]" started-at="2023-03-27T16:10:28 IST" name="teardownMethod" finished-at="2023-03-27T16:10:29 IST" duration-ms="979" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96]" started-at="2023-03-30T13:25:39 IST" name="tearDownMethod" finished-at="2023-03-30T13:25:40 IST" duration-ms="769" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login_app status=SUCCESS method=LoginToCrmWithXL.login_app()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329] output={null}]]]>
+                <![CDATA[[TestResult name=login_app status=SUCCESS method=LoginToCrmWithXL.login_app()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Test is about to end.]]>
-            </line>
             <line>
               <![CDATA[Screenshot captured]]>
             </line>
@@ -71,12 +65,12 @@
               <![CDATA[Test completed >> Reports Generated]]>
             </line>
           </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1a6d8329]" started-at="2023-03-27T16:10:29 IST" name="teardown" finished-at="2023-03-27T16:10:29 IST" duration-ms="106" status="PASS">
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.learnautomation.testcases.LoginToCrmWithXL@1283bb96]" started-at="2023-03-30T13:25:40 IST" name="teardown" finished-at="2023-03-30T13:25:40 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.learnautomation.testcases.LoginToCrmWithXL -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
