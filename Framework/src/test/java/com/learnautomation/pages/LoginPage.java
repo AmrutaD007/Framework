@@ -11,6 +11,7 @@ public class LoginPage {
 	public LoginPage(WebDriver ldriver) {
 		
 		this.driver = ldriver;
+		System.out.println(this.driver);
 	}
 	
 	//defining the elements
